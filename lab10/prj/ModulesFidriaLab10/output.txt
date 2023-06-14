@@ -1,0 +1,8 @@
+Author: Fidria Maksim
+Organization: CNTU
+City: Kropyvnytski
+Country: Ukraine
+Year of development: 2023
+Input file character count: 274
+Result of s_calculation: 12
+Number b in binary: 00000000000000000000000000000010
