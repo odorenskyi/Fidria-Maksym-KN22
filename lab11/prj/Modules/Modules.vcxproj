@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{e39d64a9-c127-4556-aec9-e40c73f88053}</ProjectGuid>
-    <RootNamespace>ModulesFidriaLozinskyi</RootNamespace>
+    <ProjectGuid>{ce4d2edb-9622-43d6-a4bd-dd6acd09ee9e}</ProjectGuid>
+    <RootNamespace>Modules</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="struct_type_project_14.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ModuleFidria.cpp" />
+    <ClCompile Include="ModuleLozinskyi.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="struct_type_project_14.cpp" />
+    <ClInclude Include="ModuleFidria.h" />
+    <ClInclude Include="ModuleLozinskyi.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="registry.txt" />
